@@ -1,0 +1,258 @@
+
+<div class="container animatedText" style="margin-top: 20px;">
+    <div class="row">
+        <div class="col">
+            <img src="assets/Rociowebimgs/perfil.jpg"  alt="foto de perfil" class="img-fluid rounded mx-auto d-block" style="margin: 20px;">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col align-self-center">
+            <h1 style="font-family: 'Josefin Sans', sans-serif; font-size: 40px; text-align: center;">Rocio Linares</h1>
+            <p style="font-family: 'Josefin Sans', sans-serif; font-size: 20px; text-align: center;">Maquilladora y Peinadora</p>    
+        </div>
+    </div>
+</div>
+
+<div class="container animatedText">
+    <h1 style="font-family: 'Josefin Sans', sans-serif; text-align: center;">Acerca de mi</h1>
+   <p style="font-family: 'Josefin Sans', sans-serif; font-size: 20px;">Soy Ro, maquilladora y peinadora since 2009.
+    Mi estilo es natural y fresco, busco que tu esencia quede intacta y te sientas cómoda.
+    Me dedico a acompañar y preparar novias hace 10 años, no solamente las maquillo y las peino, las sigo en el proceso de la elección del look con el que vas a dar el sí, desde el tocado, aros, tipo de peinado, maquillaje y más. 
+    En el día de tu casamiento me quedo hasta el último de lo último para quedarme tranquila que partís 100 por ciento lista!
+    </p> 
+    <br>
+</div>
+
+<div class="slider-container" style="margin-top: 40px;">
+    <div class="slider" [style.transform]="'translateX(' + translateValue + '%)'">
+        <div class="slide" *ngFor="let image of images; let i = index">
+            <img [src]="image" alt="Slide {{i + 1}}">
+        </div>  
+    </div>
+    <button class="prev-button" (click)="prevSlide()">&#10094;</button>
+    <button class="next-button" (click)="nextSlide()">&#10095;</button>
+   
+</div>
+
+<h1 style="font-family: 'Josefin Sans'; text-align: center; margin-top: 40px;">Peinados descontracturados y prolijos</h1>
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Peinadosprolijos/peinado1.jpg">
+        <img src="assets/Rociowebimgs/Peinadosprolijos/peinado1.jpg" alt="Peinados de novias">
+      </a>
+    </div>
+</div>
+      
+<div class="responsive">
+   <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Peinadosprolijos/peinado2.jpg">
+        <img src="assets/Rociowebimgs/Peinadosprolijos/peinado2.jpg" alt="Peinados de novias">
+      </a>
+    </div>
+</div>
+   
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Peinadosprolijos/peinado2.jpg">
+        <img src="assets/Rociowebimgs/Peinadosprolijos/peinado3.jpg" alt="Peinados de novias">
+      </a>
+    </div>
+</div>  
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Peinadosprolijos/peinado4.jpg">
+        <img src="assets/Rociowebimgs/Peinadosprolijos/peinado4.jpg" alt="Peinados de novias">
+      </a>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+<h1 style="font-family: 'Josefin Sans'; text-align: center;margin-top: 40px;">Maquillajes fresco y destacados</h1>
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Maquillajes/maquillaje1.jpg">
+        <img src="assets/Rociowebimgs/Maquillajes/maquillaje1.jpg" alt="Maquillajes fresco y destacados">
+      </a>
+    </div>
+</div>
+      
+<div class="responsive">
+   <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Maquillajes/maquillaje2.jpg">
+        <img src="assets/Rociowebimgs/Maquillajes/maquillaje2.jpg" alt="Maquillajes fresco y destacados">
+      </a>
+    </div>
+</div>
+   
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Maquillajes/maquillaje3.jpg">
+        <img src="assets/Rociowebimgs/Maquillajes/maquillaje3.jpg" alt="Maquillajes fresco y destacados">
+      </a>
+    </div>
+</div>  
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Maquillajes/maquillaje4.jpg">
+        <img src="assets/Rociowebimgs/Maquillajes/maquillaje4.jpg" alt="Maquillajes fresco y destacados">
+      </a>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+<h1 style="font-family: 'Josefin Sans'; text-align: center;margin-top: 40px;">Madrinas</h1>
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Madrinas/madrina1.jpg">
+        <img src="assets/Rociowebimgs/Madrinas/madrina1.jpg" alt="Madrinas">
+      </a>
+    </div>
+</div>
+      
+<div class="responsive">
+   <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Madrinas/madrina3.jpg">
+        <img src="assets/Rociowebimgs/Madrinas/madrina3.jpg" alt="Madrinas">
+      </a>
+    </div>
+</div>
+   
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Madrinas/madrina2.jpg">
+        <img src="assets/Rociowebimgs/Madrinas/madrina2.jpg" alt="Madrinas">
+      </a>
+    </div>
+</div>  
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Madrinas/madrina4.jpg">
+        <img src="assets/Rociowebimgs/Madrinas/madrina4.jpg" alt="Madrinas">
+      </a>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+<h1 style="font-family: 'Josefin Sans'; text-align: center;margin-top: 40px;">Y también hago invitadas</h1>
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Invitadas/invitada1.jpg">
+        <img src="assets/Rociowebimgs/Invitadas/invitada1.jpg" alt="Maquillaje de invitadas">
+      </a>
+    </div>
+</div>
+      
+<div class="responsive">
+   <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Invitadas/invitada5.jpg">
+        <img src="assets/Rociowebimgs/Invitadas/invitada5.jpg" alt="Maquillaje de invitadas">
+      </a>
+    </div>
+</div>
+   
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Invitadas/invitada2.jpg">
+        <img src="assets/Rociowebimgs/Invitadas/invitada2.jpg" alt="Maquillaje de invitadas">
+      </a>
+    </div>
+</div>  
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Invitadas/invitada6.jpg">
+        <img src="assets/Rociowebimgs/Invitadas/invitada6.jpg" alt="Maquillaje de invitadas">
+      </a>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+<h1 style="font-family: 'Josefin Sans'; text-align: center;margin-top: 40px;">Mi espacio</h1>
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Espacio/espacio3.jpg">
+        <img src="assets/Rociowebimgs/Espacio/espacio3.jpg" alt="Mi espacio">
+      </a>
+    </div>
+</div>
+      
+<div class="responsive">
+   <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Espacio/espacio1.jpg">
+        <img src="assets/Rociowebimgs/Espacio/espacio1.jpg" alt="Mi espacio">
+      </a>
+    </div>
+</div>
+   
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Espacio/espacio4.jpg">
+        <img src="assets/Rociowebimgs/Espacio/espacio4.jpg" alt="Mi espacio">
+      </a>
+    </div>
+</div>  
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Espacio/espacio2.jpg">
+        <img src="assets/Rociowebimgs/Espacio/espacio2.jpg" alt="Mi espacio">
+      </a>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+<h1 style="font-family: 'Josefin Sans'; text-align: center;margin-top: 40px;">Soy fan del auto makeup</h1>
+<div class="responsives">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Automakeup/automakeup1.jpg">
+        <img src="assets/Rociowebimgs/Automakeup/automakeup1.jpg" alt="auto makeup">
+      </a>
+    </div>
+</div>
+      
+<div class="responsives">
+   <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Automakeup/automakeup2.jpg">
+        <img src="assets/Rociowebimgs/Automakeup/automakeup2.jpg" alt="auto makeup">
+      </a>
+    </div>
+</div>
+   
+<div class="responsives">
+    <div class="gallery">
+      <a target="_blank" href="assets/Rociowebimgs/Automakeup/automakeup3.jpg">
+        <img src="assets/Rociowebimgs/Automakeup/automakeup3.jpg" alt="auto makeup">
+      </a>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+
+<div class="container-fluid" style="margin-top: 50px;">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4 mb-4">
+      <p class="text-josefin text-center">Seguime</p>
+      <div class="d-flex justify-content-center">
+        <a class="ig" href="https://www.instagram.com/rociolinaresmakeup.hair/"><i class="fa-brands fa-square-instagram social-icon"></i></a>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-4 mb-4">
+      <p class="text-josefin text-center">
+        Contactame
+      </p>
+      <div class="d-flex justify-content-center">
+        <a href="https://api.whatsapp.com/send?phone=5493512102565&text=Hola%21%20Quisiera%20recibir%20info%20sobre....%20muchas%20gracias%21%20%28Si%20te%20casas%2C%20dejame%20d%C3%ADa%2C%20horario%20y%20en%20donde%20te%20preparar%C3%ADas.%29" class="float" target="_blank"><i class="fa fa-whatsapp social-icon"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="footer" style="margin-top: 40px; text-align: center; font-family: 'Courier New', Courier, monospace;">Desarrollado por Alba Soluciones IT || COPYRIGHT 2024. TODOS LOS DERECHOS RESERVADOS</footer>

@@ -1,0 +1,167 @@
+.slider-container {
+    position: relative;
+    width: 90%;
+    height: 682px;
+    overflow: hidden;
+    margin-top: 120px;
+    margin-left: 70px;
+    background-color: #e4e4e4;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  .slide img {
+    width: 100%;
+  }
+  
+  .prev-button, .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #F7CAC9;;
+    font-size: 24px;
+    cursor: pointer;
+    border-color: #F7CAC9;;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .slider-container {
+      width: 100%;
+      height: 400px;
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  
+    .prev-button, .next-button {
+      font-size: 18px;
+    }
+  }
+  .slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.responsives {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    margin-left: 80px;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .responsives {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsives {
+    width: 100%;
+  }
+}
+.animatedText {
+  opacity: 0;
+  animation: fadeInText 1s ease-in forwards 2s; 
+}
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+.text-josefin {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+}
+
+.social-icon {
+  font-size: 4rem;
+}
+
+@media (max-width: 767px) {
+  .text-josefin {
+    font-size: 1.5rem;
+  }
+
+  .social-icon {
+    font-size: 3rem;
+  }
+}
+
+a{
+  color: inherit;
+}
+a:hover{
+  color: #25D366;
+}
+
+a.ig:hover{
+  color: #DD2A7B;
+}
