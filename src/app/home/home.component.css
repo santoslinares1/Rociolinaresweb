@@ -1,11 +1,11 @@
 .slider-container {
     position: relative;
-    width: 90%;
-    height: 682px;
+    width:90%;
+    height: 50vw;
+    max-height: 682px;
     overflow: hidden;
-    margin-top: 120px;
-    margin-left: 70px;
-    background-color: #e4e4e4;
+    margin: 40px auto;
+    background-color:#F7CAC9;;
   }
   
   .slider {
@@ -19,8 +19,10 @@
   
   .slide img {
     width: 100%;
+    height: auto;
+    object-fit: cover;
   }
-  
+
   .prev-button, .next-button {
     position: absolute;
     top: 50%;
@@ -43,21 +45,20 @@
 
   @media (max-width: 768px) {
     .slider-container {
-      width: 100%;
-      height: 400px;
-      margin-top: 20px;
-      margin-left: 0;
+        height: auto; 
     }
-  
+}
+
+@media (max-width: 480px) {
+    .slider-container {
+        height: auto; 
+    }
+
     .prev-button, .next-button {
-      font-size: 18px;
+        font-size: 20px;
+        padding: 8px;
     }
-  }
-  .slide img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
+}
 
   div.gallery {
     border: 1px solid #ccc;
@@ -124,7 +125,7 @@
 }
 .animatedText {
   opacity: 0;
-  animation: fadeInText 1s ease-in forwards 2s; 
+  animation: fadeInText 0.8s ease-in forwards 1.7s; 
 }
 
 @keyframes fadeInText {
